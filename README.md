@@ -4,8 +4,11 @@
 
 ### Observações
 1 as extensões dos arquivos precisam estar sem o ponto
+
 2 o caminho (path) precisa usar '/' e terminar em '/'
+
 3 o caminho pode ser None, para a pasta atual
+
 4 as extensões podem ser [] para todos os arquivos
 
 
