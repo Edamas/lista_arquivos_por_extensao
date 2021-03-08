@@ -13,13 +13,14 @@
 
 
 #### Exemplo 1:
-arquivos_csv_txt = lista_arq_ext(None, ['csv', 'txt', 'CSV', 'TXT])
+path = '/./'  # pasta atual
+arquivos_csv_txt = lista_arq_ext(path, ['csv', 'txt', 'CSV', 'TXT])
 
 > ['caracteristicas.csv', 'destrinchando.txt', 'html_status_codes.csv', 'user_agent_list.csv']
 
 
 #### Exemplo 2:
-
+path = 'c:/windows/'
 arquivos_csv = lista_arq_ext(arquivos, ['csv'])
 
 > ['caracteristicas.csv', 'html_status_codes.csv', 'user_agent_list.csv']
