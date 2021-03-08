@@ -11,7 +11,9 @@ def lista_arq_ext(path, extensoes):
 		 return [i for i in os.listdir(path) if i.split('.')[-1] in extensoes
 
 # Exemplo 1:
-# arquivos_csv_txt = lista_arq_ext(arquivos, ['csv', 'txt'])
+# caminho = 'c:/'
+# arquivos_csv_txt = lista_arq_ext(caminho, ['csv', 'txt'])
 
 # Exemplo 2:
-# arquivos_csv = lista_arq_ext(arquivos, ['csv'])
+# caminho = None    # (pasta atual)
+# arquivos_csv = lista_arq_ext(caminho, ['csv'])
